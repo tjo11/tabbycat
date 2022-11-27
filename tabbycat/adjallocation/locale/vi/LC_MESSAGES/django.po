@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-21 23:13\n"
+"PO-Revision-Date: 2022-11-27 04:16\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -25,7 +25,7 @@ msgstr "Hiện tại không có giám khảo nào sẵn sàng. Hãy chắc chắ
 #, python-format
 msgid "%(count)s score is larger than the maximum permitted adjudicator score (%(score).1f)."
 msgid_plural "%(count)s scores are larger than the maximum permitted adjudicator score (%(score).1f)."
-msgstr[0] ""
+msgstr[0] "%(count)s điểm lớn hớn điểm cho phép của giám khảo (%(score).1f)."
 
 #: adjallocation/allocators/hungarian.py:59
 #, python-format
@@ -49,7 +49,7 @@ msgstr "Có %(debate_count)s trận tranh biện nhưng chỉ có %(adj_count)s 
 #: adjallocation/allocators/hungarian.py:172
 #, python-format
 msgid "There are %(panel_debates)s panel debates but only %(panellists)s available panellists (less than %(needed)s)."
-msgstr ""
+msgstr "Hiện tại có %(panel_debates)s bàn giám khảo nhưng chỉ có %(panellists)s giám khảo phụ sẵn sàng (ít hơn %(needed)s)."
 
 #: adjallocation/allocators/hungarian.py:282
 #, python-format
@@ -70,7 +70,7 @@ msgstr "Bảng đấu chưa được xác nhận, xác nhận bảng đấu đ�
 
 #: adjallocation/consumers.py:69
 msgid "There are no preformed panels available to allocate."
-msgstr ""
+msgstr "Hiện tại không có bàn giám khảo được chỉ định trước nào sẵn sàng để phân bổ."
 
 #: adjallocation/consumers.py:83
 msgid "Successfully auto-allocated preformed panels to debates."
@@ -88,7 +88,7 @@ msgstr "Tự động phân bổ các giám khảo cho các trận tranh biện t
 
 #: adjallocation/consumers.py:131
 msgid "There aren't any panels to fill. Create panels first."
-msgstr ""
+msgstr "Hiện tại không có bàn giám khảo nào để điền. Tạo các bàn giám khảo trước."
 
 #: adjallocation/consumers.py:155
 #, python-format
@@ -155,7 +155,7 @@ msgstr "loại"
 
 #: adjallocation/models.py:31
 msgid "available?"
-msgstr ""
+msgstr "sẵn sàng?"
 
 #: adjallocation/models.py:34
 msgid "debate adjudicator"
@@ -255,11 +255,11 @@ msgstr ""
 
 #: adjallocation/models.py:132
 msgid "preformed panel"
-msgstr ""
+msgstr "bàn giám khảo được chỉ định trước"
 
 #: adjallocation/models.py:133
 msgid "preformed panels"
-msgstr ""
+msgstr "bàn giám khảo được chỉ định trước"
 
 #: adjallocation/models.py:167
 msgid "panel"
@@ -267,23 +267,23 @@ msgstr "bàn giám khảo"
 
 #: adjallocation/models.py:174
 msgid "preformed panel adjudicator"
-msgstr ""
+msgstr "giám khảo của bàn giám khảo được chỉ định trước"
 
 #: adjallocation/models.py:175
 msgid "preformed panel adjudicators"
-msgstr ""
+msgstr "giám khảo của bàn giám khảo được chỉ định trước"
 
 #: adjallocation/preformed/base.py:41
 msgid "There are no preformed panels to use. Have you allocated preformed panels for this round? If not, try just auto-allocating adjudicators instead."
-msgstr ""
+msgstr "Hiện tại không có bàn giám khảo nào được chỉ định trước để dùng. Bạn đã phân bổ bàn giám khảo đươc chỉ định trước cho vòng này chưa? Nếu chưa, hãy thử phân bổ giám khảo tự động."
 
 #: adjallocation/templates/preformed_index.html:5 adjallocation/views.py:128
 msgid "Preformed Panels"
-msgstr ""
+msgstr "Bàn giám khảo chỉ định"
 
 #: adjallocation/templates/preformed_index.html:10
 msgid "A preformed panel is a defined group of adjudicators that is specified for a round before its draw has been generated. You can then manually or automatically apply these panels during the normal adjudicator allocation process. This can make allocations faster or allow you to create more considered panels of adjudicators."
-msgstr ""
+msgstr "Một bàn giám khảo được chỉ định trước là một nhóm các giám khảo được chỉ định chấm một vòng trước khi bảng đấu được tạo. Bạn có thể chọn bàn giám khảo bằng tay hoặc tự động trong quá trình phân bố giám khảo. Việc này có thể khiến việc phân bổ nhanh hơn hoặc khiến bạn cân nhắc hơn trong việc phân bổ giám khảo."
 
 #: adjallocation/templates/preformed_index.html:16
 msgid "Note that only adjudicators who have been marked as 'available' for that round will be able to be allocated for that round, so you may need to set their availability in advance."
@@ -292,7 +292,7 @@ msgstr "Chú ý rằng chỉ có những giám khảo đã được đánh dấu
 #: adjallocation/templates/preformed_index.html:37
 #, python-format
 msgid "Edit Preformed Panels for %(round)s"
-msgstr ""
+msgstr "Chỉnh sửa bàn giám khảo cho vòng %(round)s"
 
 #: adjallocation/utils.py:28
 #, python-format
@@ -336,11 +336,11 @@ msgstr "Chỉnh sửa phân bổ"
 
 #: adjallocation/views.py:105
 msgid "Edit Panels"
-msgstr ""
+msgstr "Chỉnh sửa bàn giám khảo"
 
 #: adjallocation/views.py:111
 msgid "Return to Panels Overview"
-msgstr ""
+msgstr "Quay trở lại tổng quan bảng giám khảo"
 
 #: adjallocation/views.py:172
 msgid "Adjudicator-Team Conflicts"
