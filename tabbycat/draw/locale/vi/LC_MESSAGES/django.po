@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2022-11-21 20:11\n"
+"PO-Revision-Date: 2022-11-27 04:16\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -879,7 +879,7 @@ msgstr "Chỉnh sửa phân bổ phòng"
 
 #: draw/templates/draw_status_confirmed.html:78
 msgid "Preformed Panels"
-msgstr ""
+msgstr "Bàn giám khảo chỉ định"
 
 #: draw/templates/draw_status_confirmed.html:84
 #, python-format
