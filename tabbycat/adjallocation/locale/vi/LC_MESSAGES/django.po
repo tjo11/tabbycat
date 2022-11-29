@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-27 06:38\n"
+"PO-Revision-Date: 2022-11-29 21:01\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -31,11 +31,11 @@ msgstr[0] "%(count)s điểm lớn hớn điểm cho phép của giám khảo (%
 #, python-format
 msgid "%(count)s score is smaller than the minimum permitted adjudicator score (%(score).1f)."
 msgid_plural "%(count)s scores are smaller than the minimum permitted adjudicator score (%(score).1f)."
-msgstr[0] ""
+msgstr[0] "%(count)s điểm nhỏ hơn điểm cho phép của giám khảo (%(score).1f)."
 
 #: adjallocation/allocators/hungarian.py:111
 msgid "There are no adjudicators eligible to be a chair or panellist. Try changing the \"Minimum feedback score required to be allocated as chair or panellist\" setting to something lower than at least some adjudicators' current scores, and try again."
-msgstr ""
+msgstr "Không có giám khảo nào hợp lệ để làm giám khảo chính hay giám khảo phụ. Hãy thử chỉnh \"điểm phản hồi thấp nhất để được phân bổ làm giám khảo chính hoặc giám khảo phụ\" xuống thấp hơn điểm của một số giám khảo hiện tại, rồi quay lại."
 
 #: adjallocation/allocators/hungarian.py:119
 msgid "There are no debates for this round. Maybe you haven't created a draw yet?"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: adjallocation/consumers.py:246
 msgid "Succesfully auto-prioritised preformed panels."
-msgstr ""
+msgstr "Đã tự động ưu tiên các bàn giám khảo thành công."
 
 #: adjallocation/consumers.py:264
 msgid "Since this is the first round, the preformed panels aren't annotated with brackets and liveness."
@@ -126,7 +126,7 @@ msgstr ""
 
 #: adjallocation/consumers.py:270
 msgid "Succesfully created new preformed panels for this round."
-msgstr ""
+msgstr "Đã tạo thành công bàn giám khảo cho vòng này."
 
 #: adjallocation/models.py:18
 msgid "chair"
@@ -223,7 +223,7 @@ msgstr "mức độ quan trọng"
 
 #: adjallocation/models.py:119
 msgid "minimum bracket"
-msgstr ""
+msgstr "bảng dưới"
 
 #: adjallocation/models.py:120
 msgid "Estimate of the lowest bracket for which this panel might be"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: adjallocation/models.py:122
 msgid "maximum bracket"
-msgstr ""
+msgstr "bảng trên"
 
 #: adjallocation/models.py:123
 msgid "Estimate of the highest bracket for which this panel might be"
