@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-29 21:01\n"
+"PO-Revision-Date: 2022-11-29 23:38\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -243,7 +243,7 @@ msgstr "xếp hạng phòng"
 
 #: adjallocation/models.py:126
 msgid "Sequential number of panel, not used in any algorithms"
-msgstr ""
+msgstr "Số thứ tự của bàn giám khảo không được dùng trong bất cứ thuật toán nào"
 
 #: adjallocation/models.py:128
 msgid "liveness"
