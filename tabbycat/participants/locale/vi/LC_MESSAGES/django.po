@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-11-21 23:13\n"
+"PO-Revision-Date: 2022-12-22 03:12\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -887,7 +887,7 @@ msgstr ""
 
 #: participants/views.py:46
 msgid "Adjudicators"
-msgstr ""
+msgstr "Giám khảo"
 
 #: participants/views.py:55
 msgid "Speakers"
@@ -911,7 +911,7 @@ msgstr ""
 
 #: participants/views.py:107
 msgid "Teams"
-msgstr ""
+msgstr "Đội"
 
 #: participants/views.py:107
 msgid "Number of teams"
