@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-11-21 23:13\n"
+"PO-Revision-Date: 2022-12-22 03:12\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: adjfeedback/admin.py:73 adjfeedback/admin.py:139
 msgid "target"
-msgstr ""
+msgstr "mục tiêu"
 
 #: adjfeedback/admin.py:74 adjfeedback/admin.py:140 adjfeedback/models.py:236
 msgid "source adjudicator"
@@ -40,11 +40,11 @@ msgstr ""
 
 #: adjfeedback/admin.py:96
 msgid "Target"
-msgstr ""
+msgstr "Mục tiêu"
 
 #: adjfeedback/admin.py:97 adjfeedback/admin.py:162
 msgid "Source"
-msgstr ""
+msgstr "Nguồn"
 
 #: adjfeedback/admin.py:98
 msgid "Feedback timestamp and version"
@@ -90,7 +90,7 @@ msgstr "giám khảo chính"
 
 #: adjfeedback/forms.py:27
 msgid "solo"
-msgstr ""
+msgstr "đơn"
 
 #: adjfeedback/forms.py:28
 msgid "panellist"
@@ -118,7 +118,7 @@ msgstr ""
 #: adjfeedback/forms.py:164
 #, python-format
 msgid "Overall score (%(min)d=worst; %(max)d=best)*"
-msgstr ""
+msgstr "Điểm tổng kết (%(min)d=tệ nhất; %(max)d=tốt nhất)*"
 
 #: adjfeedback/forms.py:176
 msgid "Ignored"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: adjfeedback/forms.py:439
 msgid "There were no scores to import."
-msgstr ""
+msgstr "Không có điểm nào để đưa vào."
 
 #: adjfeedback/models.py:13 adjfeedback/models.py:231
 msgid "adjudicator"
