@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-23 15:08\n"
+"PO-Revision-Date: 2022-12-29 02:20\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -87,23 +87,23 @@ msgstr ""
 
 #: actionlog/models.py:105
 msgid "Created draw"
-msgstr ""
+msgstr "Emparellament creat"
 
 #: actionlog/models.py:106
 msgid "Confirmed draw"
-msgstr ""
+msgstr "Emparellament confirmat"
 
 #: actionlog/models.py:107
 msgid "Regenerated draw"
-msgstr ""
+msgstr "Emparellament regenerat"
 
 #: actionlog/models.py:108
 msgid "Released draw"
-msgstr ""
+msgstr "Emparellament publicat"
 
 #: actionlog/models.py:109
 msgid "Unreleased draw"
-msgstr ""
+msgstr "Emparellament sense publicar"
 
 #: actionlog/models.py:110
 msgid "Saved a matchup manual edit"
@@ -123,11 +123,11 @@ msgstr ""
 
 #: actionlog/models.py:114
 msgid "Released motions"
-msgstr ""
+msgstr "Mocions publicades"
 
 #: actionlog/models.py:115
 msgid "Unreleased motions"
-msgstr ""
+msgstr "Mocions sense publicar"
 
 #: actionlog/models.py:116
 msgid "Auto-prioritized debate importance"
