@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-12-29 01:18\n"
+"PO-Revision-Date: 2022-12-29 02:20\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: adjfeedback/admin.py:91
 #, python-format
 msgid "%(timestamp)s (version %(version)s)"
-msgstr ""
+msgstr "%(timestamp)s (versió %(version)s)"
 
 #: adjfeedback/admin.py:96
 msgid "Target"
@@ -156,7 +156,7 @@ msgstr ""
 #: adjfeedback/forms.py:299
 #, python-format
 msgid "%(name)s (chair gave oral)"
-msgstr ""
+msgstr "%(name)s (principal va donar retroalimentació)"
 
 #: adjfeedback/forms.py:301
 #, python-format
@@ -190,7 +190,7 @@ msgstr ""
 
 #: adjfeedback/forms.py:439
 msgid "There were no scores to import."
-msgstr ""
+msgstr "No hi va haver puntuacions per importar."
 
 #: adjfeedback/models.py:13 adjfeedback/models.py:231
 msgid "adjudicator"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: adjfeedback/models.py:17 adjfeedback/models.py:232
 msgid "score"
-msgstr ""
+msgstr "puntuació"
 
 #: adjfeedback/models.py:18
 msgid "timestamp"
@@ -218,16 +218,16 @@ msgstr ""
 
 #: adjfeedback/models.py:30
 msgid "question"
-msgstr ""
+msgstr "pregunta"
 
 #: adjfeedback/models.py:32
 msgid "feedback"
-msgstr ""
+msgstr "retroalimentació"
 
 #: adjfeedback/models.py:45 adjfeedback/models.py:55 adjfeedback/models.py:65
 #: adjfeedback/models.py:74
 msgid "answer"
-msgstr ""
+msgstr "resposta"
 
 #: adjfeedback/models.py:48
 msgid "adjudicator feedback boolean answer"
@@ -291,27 +291,27 @@ msgstr ""
 
 #: adjfeedback/models.py:111 adjfeedback/models.py:145
 msgid "text"
-msgstr ""
+msgstr "text"
 
 #: adjfeedback/models.py:112
 msgid "long text"
-msgstr ""
+msgstr "text llarg"
 
 #: adjfeedback/models.py:113
 msgid "select one"
-msgstr ""
+msgstr "selecciona una"
 
 #: adjfeedback/models.py:114
 msgid "select multiple"
-msgstr ""
+msgstr "esculli diversos"
 
 #: adjfeedback/models.py:141
 msgid "tournament"
-msgstr ""
+msgstr "torneig"
 
 #: adjfeedback/models.py:143
 msgid "sequence number"
-msgstr ""
+msgstr "número de seqüència"
 
 #: adjfeedback/models.py:146
 msgid "The question displayed to participants, e.g., \"Did you agree with the decision?\""
@@ -319,7 +319,7 @@ msgstr ""
 
 #: adjfeedback/models.py:148
 msgid "name"
-msgstr ""
+msgstr "nom"
 
 #: adjfeedback/models.py:149
 msgid "A short name for the question, e.g., \"Agree with decision\""
@@ -327,7 +327,7 @@ msgstr ""
 
 #: adjfeedback/models.py:151
 msgid "reference"
-msgstr ""
+msgstr "referència"
 
 #: adjfeedback/models.py:152
 msgid "Code-compatible reference, e.g., \"agree_with_decision\""
@@ -351,11 +351,11 @@ msgstr ""
 
 #: adjfeedback/models.py:162
 msgid "answer type"
-msgstr ""
+msgstr "tipus de resposta"
 
 #: adjfeedback/models.py:164
 msgid "required"
-msgstr ""
+msgstr "necessari"
 
 #: adjfeedback/models.py:165
 msgid "Whether participants are required to fill out this field"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: adjfeedback/models.py:167
 msgid "minimum value"
-msgstr ""
+msgstr "valor mínim"
 
 #: adjfeedback/models.py:168
 msgid "Minimum allowed value for numeric fields (ignored for text or boolean fields)"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: adjfeedback/models.py:170
 msgid "maximum value"
-msgstr ""
+msgstr "valor màxim"
 
 #: adjfeedback/models.py:171
 msgid "Maximum allowed value for numeric fields (ignored for text or boolean fields)"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: adjfeedback/models.py:176
 msgid "choices"
-msgstr ""
+msgstr "opcions"
 
 #: adjfeedback/models.py:177
 msgid "Permissible choices for select one/multiple fields (ignored for other fields)"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: adjfeedback/models.py:241 adjfeedback/views.py:768
 msgid "ignored"
-msgstr ""
+msgstr "ignorat"
 
 #: adjfeedback/models.py:242
 msgid "Whether the feedback should affect the adjudicator's score"
@@ -403,11 +403,11 @@ msgstr ""
 
 #: adjfeedback/models.py:246
 msgid "adjudicator feedback"
-msgstr ""
+msgstr "retroalimentació del jutge"
 
 #: adjfeedback/models.py:247
 msgid "adjudicator feedbacks"
-msgstr ""
+msgstr "retroalimentacions del jutge"
 
 #: adjfeedback/models.py:307
 msgid "Either the source adjudicator or source team wasn't specified."
@@ -431,7 +431,7 @@ msgstr ""
 
 #: adjfeedback/tables.py:35
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: adjfeedback/tables.py:45
 msgid "Current weighted score"
