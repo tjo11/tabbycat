@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-11-23 20:33\n"
+"PO-Revision-Date: 2022-12-29 01:18\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: adjfeedback/admin.py:73 adjfeedback/admin.py:139
 msgid "target"
-msgstr ""
+msgstr "objectiu"
 
 #: adjfeedback/admin.py:74 adjfeedback/admin.py:140 adjfeedback/models.py:236
 msgid "source adjudicator"
@@ -40,11 +40,11 @@ msgstr ""
 
 #: adjfeedback/admin.py:96
 msgid "Target"
-msgstr ""
+msgstr "Objectiu"
 
 #: adjfeedback/admin.py:97 adjfeedback/admin.py:162
 msgid "Source"
-msgstr ""
+msgstr "Font"
 
 #: adjfeedback/admin.py:98
 msgid "Feedback timestamp and version"
@@ -127,22 +127,22 @@ msgstr ""
 
 #: adjfeedback/forms.py:176
 msgid "Ignored"
-msgstr ""
+msgstr "Ignorat"
 
 #. Translators: e.g. "Megan Pearson (chair)", with adjpos="chair"
 #: adjfeedback/forms.py:228 adjfeedback/forms.py:291
 msgid "Submitted - "
-msgstr ""
+msgstr "Presentat "
 
 #. Translators: e.g. "Megan Pearson (panellist)", with round="Round 3", adjpos="panellist"
 #: adjfeedback/forms.py:229 adjfeedback/forms.py:296
 #, python-format
 msgid "%(name)s (%(adjpos)s)"
-msgstr ""
+msgstr "%(name)s (%(adjpos)s)"
 
 #: adjfeedback/forms.py:252 adjfeedback/forms.py:326
 msgid "-- Adjudicators --"
-msgstr ""
+msgstr "-- Grup de Jutges --"
 
 #: adjfeedback/forms.py:269
 msgid "Adjudicator this feedback is about"
