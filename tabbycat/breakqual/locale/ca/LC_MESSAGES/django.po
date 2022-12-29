@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-23 20:33\n"
+"PO-Revision-Date: 2022-12-29 02:20\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: breakqual/models.py:12
 msgid "name"
-msgstr ""
+msgstr "nom"
 
 #: breakqual/models.py:13
 msgid "Name to be displayed, e.g., \"ESL\""
@@ -48,7 +48,7 @@ msgstr ""
 
 #: breakqual/models.py:18
 msgid "sequence number"
-msgstr ""
+msgstr "número de seqüència"
 
 #: breakqual/models.py:19
 msgid "The order in which the categories are displayed"
