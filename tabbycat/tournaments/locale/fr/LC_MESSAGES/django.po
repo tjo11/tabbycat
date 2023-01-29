@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2021-11-29 02:17\n"
+"PO-Revision-Date: 2023-01-29 23:20\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -100,7 +100,7 @@ msgstr "Si toutes les joutes préliminaires ont été achevées, cette plage est
 #: tournaments/forms.py:267
 #, python-format
 msgid "%(name)s (%(abbreviation)s)"
-msgstr ""
+msgstr "%(name)s (%(abbreviation)s)"
 
 #: tournaments/mixins.py:109
 #, python-format
